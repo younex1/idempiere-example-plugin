@@ -1,0 +1,10 @@
+Manifest-Version: 1.0
+Bundle-ManifestVersion: 2
+Bundle-Name: ExamplePlugin
+Bundle-SymbolicName: name.trifon.example_plugin;singleton:=true
+Bundle-Version: 1.0.1.qualifier
+Require-Bundle: org.adempiere.base;bundle-version="11.0.0",
+ org.adempiere.plugin.utils;bundle-version="11.0.0"
+Automatic-Module-Name: name.trifon.example.plugin
+Bundle-Activator: org.adempiere.plugin.utils.AdempiereActivator
+Bundle-RequiredExecutionEnvironment: JavaSE-17

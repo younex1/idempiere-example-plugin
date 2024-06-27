@@ -1,0 +1,14 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<?eclipse version="3.4"?>
+<plugin>
+   <extension
+         id="name.trifon.example_plugin.MyModelValidator"
+         name="name.trifon.example_plugin.MyModelValidator"
+         point="org.adempiere.base.ModelValidator">
+      <listener
+            class="name.trifon.example_plugin.MyModelValidator"
+            priority="name.trifon.example_plugin.MyModelValidator">
+      </listener>
+   </extension>
+
+</plugin>
